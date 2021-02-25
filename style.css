@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 200px;
+    
+}
+#welcome-section{
+    background: url(./img/pexels-zoe-pappas-1006965.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+#welcome-section p{
+    background-color: darkolivegreen;
+    width: 150px;
+}
