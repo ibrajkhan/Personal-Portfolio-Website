@@ -4,11 +4,12 @@
 }
 img{
     width: 200px;
-    
+    margin-left: 10%; 
 }
 #welcome-section{
-    background: url(./img/pexels-zoe-pappas-1006965.jpg);
+    background: url("./img/red\ key.jpg");
     background-size: cover;
+    background-position: bottom;
     height: 100vh;
     background-attachment: fixed;
     color: beige;
@@ -21,4 +22,10 @@ img{
 #welcome-section p{
     background-color: darkolivegreen;
     width: 150px;
+    font-weight: lighter;
+}
+.hello{
+    margin-left: 350px;
+    position: absolute;
+    
 }
