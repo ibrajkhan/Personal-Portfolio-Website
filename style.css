@@ -3,8 +3,8 @@
     padding: 0;
 }
 img{
-    width: 200px;
-    margin-left: 10%; 
+    width: 250px;
+    border-radius: 50%; 
 }
 #welcome-section{
     background: url("./img/red\ key.jpg");
@@ -13,20 +13,29 @@ img{
     height: 100vh;
     background-attachment: fixed;
     color: beige;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
-
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#welcome-section h1{
+    padding-top: 350px;
 }
 #about{
     background-color: rgb(25, 46, 46);
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    max-height: 90vh;
+    padding: 200px 100px 200px 100px;
+    color: beige;
+}
+#words{
+    padding-left: 100px;
+    line-height: 1.5em;
+}
+#words h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.discription{
+    padding-top: 30px;
+    font-style: italic;
+}
 
-}
-.hello{
-    margin-left: 350px;
-    position: absolute;
-    
-}
