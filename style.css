@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
 }
-img{
-    width: 250px;
-    border-radius: 50%; 
-}
 #welcome-section{
     background: url("./img/red\ key.jpg");
     background-size: cover;
@@ -16,26 +12,13 @@ img{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#welcome-section h1{
+.title{
     padding-top: 350px;
 }
 #about{
     background-color: rgb(25, 46, 46);
-    display: flex;
-    align-items: center;
-    max-height: 90vh;
-    padding: 200px 100px 200px 100px;
+    min-height: 100vh;
     color: beige;
-}
-#words{
-    padding-left: 100px;
-    line-height: 1.5em;
-}
-#words h2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.discription{
-    padding-top: 30px;
-    font-style: italic;
+    padding-top: 10%;
 }
 
