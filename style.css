@@ -2,23 +2,28 @@
     margin: 0;
     padding: 0;
 }
+main{
+    color: rgb(210, 221, 231); 
+    line-height: 1.5 ; 
+}
 #welcome-section{
     background: url("./img/red\ key.jpg");
     background-size: cover;
     background-position: bottom;
     height: 100vh;
     background-attachment: fixed;
-    color: beige;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .title{
     padding-top: 350px;
 }
+.title h1{
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 40px;
+}
 #about{
     background-color: rgb(25, 46, 46);
     min-height: 100vh;
-    color: beige;
     padding-top: 10%;
 }
 .underline{
@@ -27,5 +32,8 @@
     background-color: rgb(27, 190, 68);
     margin-bottom: 20px;
     margin-top: -10px;
+}
+.discription{
+    text-align: justify;
 }
 
