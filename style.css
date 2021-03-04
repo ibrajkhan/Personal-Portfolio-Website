@@ -4,7 +4,7 @@
 }
 main{
     color: rgb(210, 221, 231); 
-    line-height: 1.5 ; 
+    line-height: 1.5 ;
 }
 #welcome-section{
     background: url("./img/red\ key.jpg");
@@ -18,8 +18,13 @@ main{
     padding-top: 350px;
 }
 .title h1{
-    font-family: 'Ravi Prakash', cursive;
-    font-size: 40px;
+    font-size: 75px;
+    font-family: 'Rancho', cursive;
+    
+}
+.title p{
+    font-size: 18px;
+    color: rgb(230, 214, 144);
 }
 #about{
     background-color: rgb(25, 46, 46);
@@ -35,5 +40,9 @@ main{
 }
 .discription{
     text-align: justify;
+}
+#about h1{
+    font-family: 'Rancho', cursive;
+    font-size: 60px;
 }
 
