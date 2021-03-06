@@ -3,7 +3,7 @@
     padding: 0;
 }
 main{
-    color: rgb(210, 221, 231); 
+    color: rgb(235, 239, 243); 
     line-height: 1.5 ;
 }
 #welcome-section{
@@ -27,27 +27,48 @@ main{
     color: rgb(230, 214, 144);
 }
 #about{
-    background-color: rgb(25, 46, 46);
+    background-color: rgb(20, 43, 43);
     min-height: 100vh;
+}
+.aboutme{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    padding-top: 10px;
 }
 .underline{
     width: 140px;
-    height: 05px;
+    height: 04px;
     background-color: rgb(27, 190, 68);
-    margin-bottom: 20px;
-    margin-top: -10px;
+    margin-bottom: 25px;
+   
 }
 .discription{
     text-align: justify;
+    font-size: 17px;
+
 }
 .heigh{
     padding-top: 05%;
 }
-.ing{
-    padding-top: 10%;
-}
 #about h1{
     font-family: 'Rancho', cursive;
     font-size: 60px;
+}
+@media(min-width: 992px){
+    .text{
+        position: relative;
+        top: -155px;
+    }
+    .ing{
+        position: relative;
+        top: 180px;
+        left: 30px;
+    }
+}
+@media(max-width:992px){
+    .text{
+        padding-top: 40px;
+    }
+
 }
 
