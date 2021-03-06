@@ -29,7 +29,6 @@ main{
 #about{
     background-color: rgb(25, 46, 46);
     min-height: 100vh;
-    padding-top: 10%;
 }
 .underline{
     width: 140px;
@@ -40,6 +39,12 @@ main{
 }
 .discription{
     text-align: justify;
+}
+.heigh{
+    padding-top: 05%;
+}
+.ing{
+    padding-top: 10%;
 }
 #about h1{
     font-family: 'Rancho', cursive;
