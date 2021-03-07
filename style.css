@@ -39,7 +39,7 @@ main{
     width: 140px;
     height: 04px;
     background-color: rgb(27, 190, 68);
-    margin-bottom: 25px;
+
    
 }
 .discription{
@@ -55,13 +55,9 @@ main{
     font-size: 60px;
 }
 @media(min-width: 992px){
-    .text{
-        position: relative;
-        top: -155px;
-    }
     .ing{
         position: relative;
-        top: 180px;
+        top: 150px;
         left: 30px;
     }
 }
