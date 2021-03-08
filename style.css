@@ -29,6 +29,7 @@ main{
 #about{
     background-color: rgb(20, 43, 43);
     min-height: 100vh;
+    padding-bottom: 30px;
 }
 .aboutme{
     font-family: 'Source Sans Pro', sans-serif;
@@ -39,6 +40,7 @@ main{
     width: 140px;
     height: 04px;
     background-color: rgb(27, 190, 68);
+    margin-bottom: 30px;
 
    
 }
@@ -48,7 +50,17 @@ main{
 
 }
 .heigh{
-    padding-top: 05%;
+    padding-top: 70px;
+    width: 70%;
+   
+}
+.text{
+    width: 70%;
+}
+.ing{
+    width: 100%;
+    max-width: 260px;
+    height: auto;
 }
 #about h1{
     font-family: 'Rancho', cursive;
@@ -56,15 +68,27 @@ main{
 }
 @media(min-width: 992px){
     .ing{
-        position: relative;
-        top: 150px;
-        left: 30px;
+        float:right;
+        margin-top: -40px;
     }
 }
-@media(max-width:992px){
-    .text{
-        padding-top: 40px;
-    }
+@media(max-width: 765px){
+    .heigh{
+        margin-left: 35px;
+        width:80%;
 
+    }
+    .underline{
+        margin-left: 35px;
+        margin-bottom: 40px ;
+    }
+    .ing{
+        margin-left: 35px;
+        margin-bottom: 30px;
+    }
+    .text{
+        margin-left: 35px;
+        width: 80%
+    }
 }
 
