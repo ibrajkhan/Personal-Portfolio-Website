@@ -66,6 +66,18 @@ main{
     font-family: 'Rancho', cursive;
     font-size: 60px;
 }
+#skill{
+    min-height: 100vh;
+    background: url("./img/pexels-ken-tomita-389818.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#skill h1{
+    font-family: 'Rancho', cursive;
+    font-size: 60px;
+}
 @media(min-width: 992px){
     .ing{
         float:right;
