@@ -68,15 +68,24 @@ main{
 }
 #skill{
     min-height: 100vh;
-    background: url("./img/pexels-ken-tomita-389818.jpg");
+    background:rgba(0,0,0,0.8) url("./img/pexels-ken-tomita-389818.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-blend-mode: darken;
 
 }
 #skill h1{
     font-family: 'Rancho', cursive;
     font-size: 60px;
+}
+.skill-dev{
+   font-size: 28px;
+   
+}
+.span{
+    display: flex;
+    flex-direction: column;
 }
 @media(min-width: 992px){
     .ing{
