@@ -73,19 +73,24 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-
 }
 #skill h1{
     font-family: 'Rancho', cursive;
-    font-size: 60px;
+    font-size: 75px;
 }
 .skill-dev{
-   font-size: 28px;
+   font-size: 33px;
+   padding-top: 45px;
    
+}
+.dev{
+    display: flex;
+    flex-direction: row;
 }
 .span{
     display: flex;
     text-align: center;
+    margin-left: 25px;
 }
 @media(min-width: 992px){
     .ing{
