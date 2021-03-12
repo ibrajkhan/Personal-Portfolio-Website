@@ -85,7 +85,7 @@ main{
 }
 .span{
     display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 @media(min-width: 992px){
     .ing{
