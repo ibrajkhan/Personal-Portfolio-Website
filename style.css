@@ -92,6 +92,10 @@ main{
     text-align: center;
     margin-left: 25px;
 }
+.tools{
+    font-size: 20px;
+    margin-left: 25px;
+}
 @media(min-width: 992px){
     .ing{
         float:right;
