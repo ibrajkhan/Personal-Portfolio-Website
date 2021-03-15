@@ -79,7 +79,7 @@ main{
     font-size: 75px;
 }
 .skill-dev{
-   font-size: 33px;
+   font-size: 40px;
    padding-top: 45px;
    
 }
@@ -91,10 +91,12 @@ main{
     display: flex;
     text-align: center;
     margin-left: 25px;
+    font-size: 20px;
 }
 .tools{
     font-size: 20px;
-    margin-left: 25px;
+    margin-left: 35px;
+    margin-top: 25px;
 }
 @media(min-width: 992px){
     .ing{
