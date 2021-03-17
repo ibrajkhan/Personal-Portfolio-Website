@@ -80,7 +80,7 @@ main{
 }
 .skill-dev{
    font-size: 40px;
-   padding-top: 45px;
+   
 }
 .dev{
     display: flex;
@@ -93,15 +93,25 @@ main{
     text-align: center;
     margin-left: 25px;
     font-size: 20px;
+    max-width: 95%;
+    
 }
 .tools{
     font-size: 20px;
     margin-left: 35px;
     margin-top: 25px;
 }
+.in{
+    margin-top: 80px;
+}
 .head-icon{
     width: 100%;
     max-width: 120px;
+    height: auto;
+}
+.icon{
+    width: 100%;
+    max-width: 85px;
     height: auto;
 }
 @media(min-width: 992px){
@@ -127,6 +137,12 @@ main{
     .text{
         margin-left: 35px;
         width: 80%
+    }
+    .dev{
+        flex-direction: column;
+    }
+    .span{
+        max-width: 100%;
     }
 }
 
