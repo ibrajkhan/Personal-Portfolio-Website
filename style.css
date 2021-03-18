@@ -7,10 +7,10 @@ main{
     line-height: 1.5 ;
 }
 #welcome-section{
-    background: url("./img/red\ key.jpg");
+    background: url(./img/red\ key.jpg);
+    height: 100vh;
     background-size: cover;
     background-position: bottom;
-    height: 100vh;
     background-attachment: fixed;
     text-align: center;
 }
@@ -34,7 +34,7 @@ main{
 .aboutme{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 .underline{
     width: 140px;
@@ -93,7 +93,7 @@ main{
     text-align: center;
     margin-left: 25px;
     font-size: 20px;
-    max-width: 95%;
+    max-width: 90%;
     
 }
 .tools{
@@ -111,8 +111,11 @@ main{
 }
 .icon{
     width: 100%;
-    max-width: 85px;
+    max-width: 90px;
     height: auto;
+}
+.lang{
+    margin-right: 15px;
 }
 @media(min-width: 992px){
     .ing{
@@ -121,28 +124,37 @@ main{
     }
 }
 @media(max-width: 765px){
+    #about{
+        padding-left: 45px;
+    }
     .heigh{
-        margin-left: 35px;
         width:80%;
 
     }
-    .underline{
-        margin-left: 35px;
+    .underline{ 
         margin-bottom: 40px ;
     }
     .ing{
-        margin-left: 35px;
         margin-bottom: 30px;
     }
-    .text{
-        margin-left: 35px;
+    .text{ 
         width: 80%
+    }
+    #skill{
+        padding-left: 30px;
     }
     .dev{
         flex-direction: column;
     }
     .span{
         max-width: 100%;
+        margin-left: 13px;
+    }
+    .tools{
+        margin-left: 13px;
+    }
+    .lang{
+        margin-right: 08px;
     }
 }
 
