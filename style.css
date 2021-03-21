@@ -38,7 +38,7 @@ main{
 }
 .underline{
     width: 140px;
-    height: 04px;
+    height: 2.2px;
     background-color: rgb(27, 190, 68);
     margin-bottom: 30px;
 
@@ -121,6 +121,21 @@ main{
     font-family: 'Rancho', cursive;
     font-size: 75px;
 }
+.project-link {
+    text-align: center;
+}
+.project-link a{
+    text-decoration: none;
+    color: rgb(235, 239, 243); 
+}
+.project-link a:hover{
+    text-decoration: underline;
+    color: rgb(27, 190, 68);;
+}
+.project img:hover{
+    border: rgb(27, 190, 68) 2px solid;
+    opacity: 0.5;
+}
 @media(min-width: 992px){
     .my-image{
         float:right;
@@ -147,7 +162,7 @@ main{
         text-align: left;
     }
     #skill{
-        padding-left: 30px;
+        padding-left: 15px;
     }
     .dev{
         flex-direction: column;
