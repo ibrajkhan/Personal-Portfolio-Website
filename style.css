@@ -44,11 +44,6 @@ main{
 
    
 }
-.discription{
-    text-align: justify;
-    font-size: 17px;
-
-}
 .heigh{
     padding-top: 70px;
     width: 70%;
@@ -56,8 +51,9 @@ main{
 }
 .text{
     width: 70%;
+    font-size: 17px;
 }
-.ing{
+.my-image{
     width: 100%;
     max-width: 260px;
     height: auto;
@@ -117,28 +113,38 @@ main{
 .lang{
     margin-right: 15px;
 }
+.project{
+    background-color: rgb(20, 43, 43);
+    min-height: 100vh;
+}
+.project h1{
+    font-family: 'Rancho', cursive;
+    font-size: 75px;
+}
 @media(min-width: 992px){
-    .ing{
+    .my-image{
         float:right;
         margin-top: -40px;
     }
 }
 @media(max-width: 765px){
     #about{
-        padding-left: 45px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .heigh{
-        width:80%;
+        width:100%;
 
     }
     .underline{ 
         margin-bottom: 40px ;
     }
-    .ing{
+    .my-image{
         margin-bottom: 30px;
     }
     .text{ 
-        width: 80%
+        width: 100%;
+        text-align: left;
     }
     #skill{
         padding-left: 30px;
