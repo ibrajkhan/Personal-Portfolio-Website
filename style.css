@@ -132,10 +132,31 @@ main{
     text-decoration: underline;
     color: rgb(27, 190, 68);;
 }
-.project img:hover{
+.norman-img{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+.med-img{
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    position: relative;
+    bottom: 361px;
+    left: 570px;
+}
+.small-img{
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+    position: relative;
+    bottom: 332px;
+    left: 500px;
+}
+/*.project img:hover{
     border: rgb(27, 190, 68) 2px solid;
     opacity: 0.5;
-}
+}*/
 @media(min-width: 992px){
     .my-image{
         float:right;
