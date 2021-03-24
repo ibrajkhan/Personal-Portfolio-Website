@@ -132,26 +132,47 @@ main{
     text-decoration: underline;
     color: rgb(27, 190, 68);;
 }
-.norman-img{
-    width: 100%;
-    max-width: 800px;
-    height: auto;
+.portfolio-row{
+    margin: 0;
+    padding-top: 50px;
+    display: block;
+
+}
+
+.screenshot{
+    width: 95%;
+    position: relative;
 }
 .med-img{
-    width: 100%;
-    max-width: 450px;
-    height: auto;
-    position: relative;
-    bottom: 361px;
-    left: 570px;
+    width: 40%;
+    right: 20%;
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 75%);
 }
 .small-img{
-    width: 100%;
-    max-width: 170px;
-    height: auto;
-    position: relative;
-    bottom: 332px;
-    left: 500px;
+    width: 17%;
+    right: 1rem;
+    z-index: 3;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 75%);
+    border: 0;
+    position: absolute;
+    bottom: 0;
+    border-radius: 2px;
+}
+.large-img{
+    width: 70%;
+    left: 0;
+    z-index: 1;
+    border: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 75%);
 }
 /*.project img:hover{
     border: rgb(27, 190, 68) 2px solid;
