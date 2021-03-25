@@ -132,7 +132,7 @@ main{
 }
 .project-link a:hover{
     text-decoration: underline;
-    color: rgb(27, 190, 68);;
+    color: rgb(27, 190, 68);
 }
 .screenshot{
     width: 95%;
@@ -165,6 +165,29 @@ main{
     left: 84%;
     border-radius: 2px;
     box-shadow: 0 5px 10px 0 rgb(0 0 0 / 75%);
+}
+.project-name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-top: 30px;
+    justify-content:space-between;
+    
+}
+.project-btn a{
+   color: rgb(27, 190, 68); 
+   text-decoration: none;
+   border: 2px solid rgb(27, 190, 68);
+   padding: 7px 10px;
+   margin-right: 6px;
+   border-radius:0.6ex;
+   font-size: 15px;
+   font-family: Gotham,Helvetica,Arial,sans-serif;
+}
+.project-btn a:hover{
+    color: rgb(235, 239, 243);
+    background-color: rgb(27, 190, 68); 
 }
 /*.med-img{
     width: 40%;
@@ -236,6 +259,9 @@ main{
     }
     .lang{
         margin-right: 08px;
+    }
+    .project-name{
+        flex-direction: column;  
     }
 }
 
