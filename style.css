@@ -180,7 +180,8 @@ main{
    text-decoration: none;
    border: 2px solid rgb(27, 190, 68);
    padding: 7px 10px;
-   margin-right: 6px;
+   width: 85px;
+   margin-right: 10px;
    border-radius:0.6ex;
    font-size: 15px;
    font-family: Gotham,Helvetica,Arial,sans-serif;
@@ -189,6 +190,30 @@ main{
     color: rgb(235, 239, 243);
     background-color: rgb(27, 190, 68); 
 }
+.project-para{
+    font-size: 17px;
+    margin-top: 25px;
+    width: 90%;
+}
+.project-skill-btn{
+    margin-top: 20px;
+}
+.items{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.item{
+    display: inline-block;
+    padding: 7px 7px 5px;
+    margin-right: 5px;
+    color:rgb(214, 235, 235);
+    background-color: rgb(47, 105, 105);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
 /*.med-img{
     width: 40%;
     right: 20%;
@@ -262,6 +287,12 @@ main{
     }
     .project-name{
         flex-direction: column;  
+    }
+    .project-btn{
+        margin-top: 10px;
+    }
+    .project{
+        padding-left: 15px;
     }
 }
 
