@@ -158,10 +158,10 @@ main{
     box-shadow: 0 5px 10px 0 rgb(0 0 0 / 75%);
 }
 .small-img{
-    width: 16%;
+    width: 15%;
     z-index: 3;
     position: absolute;
-    top: 27.7%;
+    top: 29.5%;
     left: 84%;
     border-radius: 2px;
     box-shadow: 0 5px 10px 0 rgb(0 0 0 / 75%);
@@ -212,6 +212,10 @@ main{
     border-radius: 3px;
     text-transform: uppercase;
     font-size: 11px;
+}
+.line{
+    margin-top: 100px;
+    margin-bottom: 80px;
 }
 
 /*.med-img{
