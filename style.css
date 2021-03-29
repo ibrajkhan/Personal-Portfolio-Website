@@ -92,10 +92,29 @@ main{
     max-width: 85%;
     
 }
+.lang{
+    margin-right: 15px;
+    text-transform: capitalize;
+}
+.lang a{
+    color: rgb(235, 239, 243);
+    text-decoration: none;
+}
+.lang a:hover{
+    text-decoration: underline;
+    color: rgb(235, 239, 243);
+}
 .tools{
     font-size: 20px;
     margin-left: 35px;
     margin-top: 25px;
+}
+.tools p a{
+    color: rgb(235, 239, 243);
+    text-decoration: none;
+}
+.tools p a:hover{
+   text-decoration: underline;
 }
 .in{
     margin-top: 80px;
@@ -109,17 +128,15 @@ main{
     width: 100%;
     max-width: 90px;
     height: auto;
+    display: block;
 }
-.lang{
-    margin-right: 15px;
-}
-.project{
+#project{
     background-color: rgb(20, 43, 43);
     min-height: 100vh;
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.project h1{
+#project h1{
     font-family: 'Rancho', cursive;
     font-size: 75px;
 }
@@ -213,10 +230,27 @@ main{
     text-transform: uppercase;
     font-size: 11px;
 }
-.line{
-    margin-top: 100px;
-    margin-bottom: 80px;
+.item a{
+    text-decoration: none;
+    color:rgb(214, 235, 235);
 }
+.item a:hover{
+    color:rgb(186, 229, 229);
+    text-decoration: underline;
+}
+.item:hover{
+    color:rgb(214, 235, 235);
+    background-color: rgb(13, 78, 78);
+
+}
+.line{
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+.portfolio-row{
+    margin-left: 10px;
+}
+
 
 /*.med-img{
     width: 40%;
@@ -295,7 +329,7 @@ main{
     .project-btn{
         margin-top: 10px;
     }
-    .project{
+    #project{
         padding-left: 15px;
     }
 }
