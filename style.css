@@ -250,9 +250,33 @@ main{
 .portfolio-row{
     margin-left: 10px;
 }
+.more-projects{
+    background-image: linear-gradient(to right,#43cea2, #185a9d);
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.more-projects h3{
+    font-family: 'Rancho', cursive;
+    font-size: 38px;
+    display: inline;
+}
+.git{
+    display: inline;
+    color: cornsilk;
+    margin-left: 10px;
+}
+.git:hover{
+    color: rgb(27, 37, 65);
+}
 
 
-/*.med-img{
+
+/*#2193b0 → #6dd5ed,#cc2b5e → #753a88, #02aab0,#00cdac,#4568dc, #b06ab3
+#43cea2, #185a9d
+.med-img{
     width: 40%;
     right: 20%;
     z-index: 2;
