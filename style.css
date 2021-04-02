@@ -271,7 +271,17 @@ main{
 .git:hover{
     color: rgb(27, 37, 65);
 }
-
+#certificate{
+    min-height: 100vh;
+    background:rgba(0,0,0,0.8) url("./img/certificates.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.certi-text{
+    color: black;
+}
 
 
 /*#2193b0 → #6dd5ed,#cc2b5e → #753a88, #02aab0,#00cdac,#4568dc, #b06ab3
