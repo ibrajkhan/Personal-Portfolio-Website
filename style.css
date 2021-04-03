@@ -279,8 +279,39 @@ main{
     background-repeat: no-repeat;
     background-blend-mode: darken;
 }
-.certi-text{
+.content{
+    padding: 70px 0 70px 0;
+}
+.content h1{
+    font-family: 'Rancho', cursive;
+    font-size: 75px;
+}
+.certi-col{
+    margin-left: 120px;
+}
+.ceti-text{
     color: black;
+}
+.btn-certi a{
+    color: rgb(27, 190, 68); 
+   text-decoration: none;
+   border: 2px solid rgb(27, 190, 68);
+   padding: 7px 10px;
+   width: 115px;
+   margin-right: 10px;
+   border-radius:0.6ex;
+   font-size: 15px;
+   font-family: Gotham,Helvetica,Arial,sans-serif;
+}
+.btn-certi a:hover{
+    color: rgb(235, 239, 243);
+    background-color: rgb(27, 190, 68);
+}
+.social-certi{
+    color: rgb(77, 75, 75);
+}
+.social-certi:hover{
+    color:rgb(37, 36, 36);
 }
 
 
@@ -365,6 +396,9 @@ main{
     }
     #project{
         padding-left: 15px;
+    }
+    .certi-col{
+        margin-left: 0px;
     }
 }
 
