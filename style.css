@@ -252,7 +252,7 @@ main{
 }
 .more-projects{
     background-image: linear-gradient(to right,#43cea2, #185a9d);
-    height: 20vh;
+    height: 15vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -260,7 +260,7 @@ main{
 }
 .more-projects h3{
     font-family: 'Rancho', cursive;
-    font-size: 38px;
+    font-size: 35px;
     display: inline;
 }
 .git{
@@ -286,11 +286,21 @@ main{
     font-family: 'Rancho', cursive;
     font-size: 75px;
 }
-.certi-col{
-    margin-left: 120px;
-}
-.ceti-text{
+.card {
+    box-shadow: 0 4px 8px 0 rgba(103, 196, 57, 0.2);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(241, 239, 239, 0.2);
+  }
+  
+  .containers {
+    padding: 10px 10px;
     color: black;
+  }
+  .certi-col{
+    margin-left: 10%;
 }
 .btn-certi a{
     color: rgb(27, 190, 68); 
@@ -308,40 +318,13 @@ main{
     background-color: rgb(27, 190, 68);
 }
 .social-certi{
-    color: rgb(77, 75, 75);
+    color: rgb(54, 53, 53);
 }
 .social-certi:hover{
-    color:rgb(37, 36, 36);
+    color:#0a0a23;
 }
 
 
-/*#2193b0 → #6dd5ed,#cc2b5e → #753a88, #02aab0,#00cdac,#4568dc, #b06ab3
-#43cea2, #185a9d
-.med-img{
-    width: 40%;
-    right: 20%;
-    z-index: 2;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    border-radius: 2px;
-    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 75%);
-}
-.small-img{
-    width: 17%;
-    right: 1rem;
-    z-index: 3;
-    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 75%);
-    border: 0;
-    position: absolute;
-    bottom: 0;
-    border-radius: 2px;
-}
-
-/*.project img:hover{
-    border: rgb(27, 190, 68) 2px solid;
-    opacity: 0.5;
-}*/
 @media(min-width: 992px){
     .my-image{
         float:right;
@@ -397,8 +380,15 @@ main{
     #project{
         padding-left: 15px;
     }
+    #certificate{
+        padding-left: 15px;
+    }
     .certi-col{
-        margin-left: 0px;
+        margin-left: 0%;
+    }
+    .card{
+        width: 85%;
+        margin: 25px 0 25px 20px;
     }
 }
 
