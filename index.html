@@ -378,7 +378,6 @@
       </section>
 
       <section id="contacts">
-        <video src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/708209935.mp4" autoplay loop playsinline muted></video>
           <div class="contents">
             <center>
               <div>
@@ -387,7 +386,32 @@
                <div class="underline"></div>
             </div>
             </center>
+           <div class="login-wrapper">
+              <form action="" class="form" autocomplete="off">
+                <div class="input-group">
+                  <input type="text" name="Name" id="name" required>
+                  <label for="Name">Name</label>
+                </div>
+                <div class="input-group">
+                  <input type="text" name="Subject" id="subject" required>
+                  <label for="subject">Subject</label>
+                </div>
+                <div class="input-group">
+                  <input type="email" name="Email" id="email" class="field" required>
+                  <label for="email" class="label">Email</label>
+               </div>
+               <div class="input-group">
+                  <textarea name="Message" id="message" ></textarea>
+                 <label for="message" class="label-name"> <span class="content-name">Message</span> </label>
+               </div>
+               <div class="btn-submit">
+                <input type="submit" value="Submit" class="btn" id="submit"> 
+               </div>
+              </form>
+            </div>
+
           </div>
+          
       </section>
     </main>
   </body>

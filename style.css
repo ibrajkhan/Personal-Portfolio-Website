@@ -303,7 +303,7 @@ main{
     margin-left: 10%;
 }
 .btn-certi a{
-    color: rgb(27, 190, 68); 
+   color: rgb(27, 190, 68); 
    text-decoration: none;
    border: 2px solid rgb(27, 190, 68);
    padding: 7px 10px;
@@ -336,27 +336,112 @@ main{
     font-size: 35px;
     display: inline;
 }
-video {
-    object-fit: cover;
-    width: 100vw;
+#contacts{
+    background: linear-gradient(rgba(31, 21, 180, 0.6),rgba(172, 24, 140, 0.8)), url(./Project-img/pexels-julius-silver-753626.jpg);
     height: 100vh;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-  
-.contents{
-    
-}
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-position:left
+} 
 #contacts h1{
     font-family: 'Rancho', cursive;
-    font-size: 75px;
+    font-size: 70px;
+    padding-top: 30px
 }
 .contact-text{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
     margin-top: 10px;
 }
+.login-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    padding: 20px 40px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+  }
+  /*.form::before {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    /*: rgba(255,255,255, 0.08);
+    /*transform: skewX(-26deg);
+    transform-origin: bottom left;
+    border-radius: 10px;
+    pointer-events: none;
+  }*/
+  .form .input-group {
+    position: relative;
+    text-transform: uppercase;
+   
+  }
+  .form .input-group input, textarea {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+  }
+  .form .input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .3s ease-out;
+  }
+  .form .input-group input:focus + label,
+  .form .input-group input:valid + label {
+    transform: translateY(-18px);
+    color: #ff652f;
+    font-size: .8rem;
+    }
+  .form .input-group  textarea:focus + label,
+  .form .input-group  textPath:valid + label {
+    transform: translateY(-18px);
+    color: #ff652f;
+    font-size: .8rem;
+    }
+    .btn-submit input{
+        color: #ff652f; 
+        text-decoration: none;
+        border: 2px solid #ff652f;
+        padding: 7px 10px;
+        width: 115px;
+        margin-right: 10px;
+        border-radius:0.6ex;
+        font-size: 15px;
+        font-family: Gotham,Helvetica,Arial,sans-serif;
+     }
+     .btn-submit input:hover{
+         color: rgb(235, 239, 243);
+         background-color: #ff652f;
+     }
+     .btn-submit{
+         display: flex;
+         justify-content: center;
+         margin-top: 30px;
+     }
+     
 
 
 @media(min-width: 992px){
@@ -423,6 +508,9 @@ video {
     .card{
         width: 85%;
         margin: 25px 0 25px 20px;
+    }
+    .form{
+       max-width: 300px;
     }
 }
 
