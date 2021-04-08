@@ -439,9 +439,33 @@ textarea {
   margin-top: 30px;
 }
 #footer {
-  background: linear-gradient(45deg, #00b7c7 0, #4d0ce8 100%);
+  background: linear-gradient(45deg, #00ccdf 0, #4d0ce8 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   min-height: 25vh;
 }
+.social-media{
+  margin-top: 20px;
+  font-size: 13px;
+}
+.media{
+  color:  honeydew;
+  margin-right: 25px;
+}
+.media:hover{
+  color:rgb(153, 155, 153)
+}
+.social-text{
+  margin-top: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 17px;
+  margin-right: 20px;
+}
+
+
+
 
 @media (min-width: 992px) {
   .my-image {
@@ -509,5 +533,12 @@ textarea {
   }
   .form {
     width: 83%;
+  }
+  .media{
+    margin-right: 15px;
+  }
+  .social-text{
+    margin-right: 0px;
+    font-size: 15px;
   }
 }
