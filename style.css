@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+nav{
+  background-image: linear-gradient(to right, #4d0ce8,#00ccdf );
+  font-family: 'Reggae One', cursive;  
+}
 main {
   color: rgb(235, 239, 243);
   line-height: 1.5;
@@ -330,7 +334,7 @@ main {
   display: inline;
 }
 #contacts {
-  background: /*linear-gradient(rgba(31, 21, 180, 0.6),rgba(172, 24, 140, 0.8)),*/ linear-gradient(
+  background: linear-gradient(
       rgba(31, 21, 180, 0.6),
       rgba(172, 24, 140, 0.2)
     ),
@@ -367,19 +371,6 @@ main {
   color: #fff;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
 }
-/*.form::before {
-    content:'';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: rgba(255,255,255, 0.08);
-    transform: skewX(-26deg);
-    transform-origin: bottom left;
-    border-radius: 10px;
-    pointer-events: none
-  }*/
 .form .input-group {
   position: relative;
   text-transform: uppercase;
@@ -412,12 +403,6 @@ textarea {
   color: #ff652f;
   font-size: 0.8rem;
 }
-/*.form .input-group  textarea:focus + label,
-  .form .input-group  textPath:valid + label {
-    transform: translateY(-18px);
-    color: #ff652f;
-    font-size: .8rem;
-    }*/
 .btn-submit input {
   color: #ff652f;
   text-decoration: none;
@@ -440,19 +425,20 @@ textarea {
 }
 #footer {
   background: linear-gradient(45deg, #00ccdf 0, #4d0ce8 100%);
+  min-height: 25vh;
+  
+}
+.social-media{
+  font-size: 13px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  min-height: 25vh;
-}
-.social-media{
-  margin-top: 20px;
-  font-size: 13px;
+  flex-wrap: wrap;
+  padding-top: 40px;
 }
 .media{
   color:  honeydew;
-  margin-right: 25px;
+  
 }
 .media:hover{
   color:rgb(153, 155, 153)
@@ -461,7 +447,9 @@ textarea {
   margin-top: 40px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 17px;
-  margin-right: 20px;
+}
+.indivi-social{
+  margin: 0 15px;
 }
 
 
@@ -473,7 +461,7 @@ textarea {
     margin-top: -40px;
   }
 }
-@media (max-width: 765px) {
+@media(max-width: 765px) {
   #about {
     padding-left: 15px;
     padding-right: 15px;
@@ -534,11 +522,10 @@ textarea {
   .form {
     width: 83%;
   }
-  .media{
-    margin-right: 15px;
-  }
   .social-text{
-    margin-right: 0px;
     font-size: 15px;
+  }
+  .indivi-social{
+    margin: 0 10px;
   }
 }
