@@ -400,13 +400,14 @@ textarea {
 .form .input-group .input:focus + label,
 .form .input-group .input:valid + label {
   transform: translateY(-18px);
-  color: #ff652f;
+  /*color: #ff652f;*/
+  color: rgb(27, 190, 68);
   font-size: 0.8rem;
 }
 .btn-submit input {
-  color: #ff652f;
+  color: rgb(27, 190, 68); 
   text-decoration: none;
-  border: 2px solid #ff652f;
+  border: 2px solid rgb(27, 190, 68);
   padding: 7px 10px;
   width: 115px;
   margin-right: 10px;
@@ -416,7 +417,7 @@ textarea {
 }
 .btn-submit input:hover {
   color: rgb(235, 239, 243);
-  background-color: #ff652f;
+  background-color: rgb(27, 190, 68);
 }
 .btn-submit {
   display: flex;
@@ -441,7 +442,7 @@ textarea {
   
 }
 .media:hover{
-  color:rgb(153, 155, 153)
+  color:rgb(27, 190, 68);
 }
 .social-text{
   margin-top: 40px;
