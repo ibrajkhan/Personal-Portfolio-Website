@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  nav{
+    background-color: rgb(4, 131, 131);
+    font-family: 'Merienda One', cursive;
+  }
+  main {
+    color: rgb(235, 239, 243);
+    line-height: 1.5;
+  }
+  #welcome-section {
+    background: url(./img/red\ key.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    text-align: center;
+  }
+  .title {
+    padding-top: 20%;
+  }
+  .title h1 {
+    font-size: 50px;
+    font-family: 'Merienda One', cursive;
+  }
+  .title p {
+    font-family: 'Merienda One', cursive;
+    padding-top: 5px;
+    font-size: 18px;
+    color: rgb(220, 222, 231);
+  }
+  #about {
+    background-color: rgb(20, 43, 43);
+    min-height: 100vh;
+    padding-bottom: 30px;
+  }
+  .aboutme {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  .underline {
+    width: 140px;
+    height: 2.2px;
+    background-color: rgb(27, 190, 68);
+    margin-bottom: 30px;
+  }
+  .heigh {
+    padding-top: 70px;
+    width: 70%;
+  }
+  .text {
+    width: 70%;
+    font-size: 17px;
+  }
+  .my-image {
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+  }
+  #about h1 {
+    font-family: "Rancho", cursive;
+    font-size: 60px;
+  }
+  #skill {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.8) url("./img/pexels-ken-tomita-389818.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+  }
+  #skill h1 {
+    font-family: "Rancho", cursive;
+    font-size: 60px;
+  }
+  .skill-dev {
+    font-size: 40px;
+  }
+  .dev {
+    display: flex;
+    flex-direction: row;
+  }
+  .span {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 25px;
+    font-size: 20px;
+    max-width: 85%;
+  }
+  .lang {
+    margin-right: 15px;
+    text-transform: capitalize;
+  }
+  .lang a {
+    color: rgb(235, 239, 243);
+    text-decoration: none;
+  }
+  .lang a:hover {
+    text-decoration: underline;
+    color: rgb(235, 239, 243);
+  }
+  .tools {
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: 25px;
+  }
+  .tools p a {
+    color: rgb(235, 239, 243);
+    text-decoration: none;
+  }
+  .tools p a:hover {
+    text-decoration: underline;
+  }
+  .in {
+    margin-top: 80px;
+  }
+  .head-icon {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+  }
+  .icon {
+    width: 100%;
+    max-width: 90px;
+    height: auto;
+    display: block;
+  }
+  #project {
+    background-color: rgb(20, 43, 43);
+    min-height: 100vh;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  #project h1 {
+    font-family: "Rancho", cursive;
+    font-size: 60px;
+  }
+  .project-link {
+    text-align: center;
+  }
+  .project-link a {
+    text-decoration: none;
+    color: rgb(235, 239, 243);
+  }
+  .project-link a:hover {
+    text-decoration: underline;
+    color: rgb(27, 190, 68);
+  }
+  .screenshot {
+    width: 95%;
+    position: relative;
+    margin-top: 50px;
+  }
+  .large-img {
+    width: 70%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 75%);
+  }
+  .med-img {
+    width: 40%;
+    position: absolute;
+    top: 18.5%;
+    left: 50%;
+    z-index: 2;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 75%);
+  }
+  .small-img {
+    width: 15%;
+    z-index: 3;
+    position: absolute;
+    top: 29.5%;
+    left: 84%;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 75%);
+  }
+  .project-name {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+  .project-btn a {
+    color: rgb(27, 190, 68);
+    text-decoration: none;
+    border: 2px solid rgb(27, 190, 68);
+    padding: 7px 10px;
+    width: 85px;
+    margin-right: 10px;
+    border-radius: 0.6ex;
+    font-size: 15px;
+    font-family: Gotham, Helvetica, Arial, sans-serif;
+  }
+  .project-btn a:hover {
+    color: rgb(235, 239, 243);
+    background-color: rgb(27, 190, 68);
+  }
+  .project-para {
+    font-size: 17px;
+    margin-top: 25px;
+    width: 90%;
+  }
+  .project-skill-btn {
+    margin-top: 20px;
+  }
+  .items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .item {
+    display: inline-block;
+    padding: 7px 7px 5px;
+    margin-right: 5px;
+    color: rgb(214, 235, 235);
+    background-color: rgb(47, 105, 105);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  .item a {
+    text-decoration: none;
+    color: rgb(214, 235, 235);
+  }
+  .item a:hover {
+    color: rgb(186, 229, 229);
+    text-decoration: underline;
+  }
+  .item:hover {
+    color: rgb(214, 235, 235);
+    background-color: rgb(13, 78, 78);
+  }
+  .line {
+    margin-top: 50px;
+    margin-bottom: 110px;
+  }
+  .portfolio-row {
+    margin-left: 10px;
+  }
+  .more-projects {
+    background-image: linear-gradient(to right, #43cea2, #185a9d);
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .more-projects h3 {
+    font-family: "Rancho", cursive;
+    font-size: 35px;
+    display: inline;
+  }
+  .git {
+    display: inline;
+    color: cornsilk;
+    margin-left: 10px;
+  }
+  .git:hover {
+    color: rgb(27, 37, 65);
+  }
+  #certificate {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.8) url("./img/certificates.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+  }
+  .content {
+    padding: 70px 0 70px 0;
+  }
+  .content h1 {
+    font-family: "Rancho", cursive;
+    font-size: 60px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(103, 196, 57, 0.2);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(241, 239, 239, 0.2);
+  }
+  
+  .containers {
+    padding: 10px 10px;
+    color: black;
+  }
+  .certi-col {
+    margin-left: 10%;
+  }
+  .btn-certi a {
+    color: rgb(27, 190, 68);
+    text-decoration: none;
+    border: 2px solid rgb(27, 190, 68);
+    padding: 7px 10px;
+    width: 115px;
+    margin-right: 10px;
+    border-radius: 0.6ex;
+    font-size: 15px;
+    font-family: Gotham, Helvetica, Arial, sans-serif;
+  }
+  .btn-certi a:hover {
+    color: rgb(235, 239, 243);
+    background-color: rgb(27, 190, 68);
+  }
+  .social-certi {
+    color: rgb(54, 53, 53);
+  }
+  .social-certi:hover {
+    color: #0a0a23;
+  }
+  .resume {
+    background-image: linear-gradient(to right, #43cea2, #185a9d);
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .resume h3 {
+    font-family: "Rancho", cursive;
+    font-size: 35px;
+    display: inline;
+  }
+  #contacts {
+    background: linear-gradient(
+        rgba(31, 21, 180, 0.6),
+        rgba(172, 24, 140, 0.2)
+      ),
+      url(./Project-img/pexels-julius-silver-753626.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-position: left;
+    padding-bottom: 80px;
+    padding-top: 60px;
+  }
+  #contacts h1 {
+    font-family: "Rancho", cursive;
+    font-size: 60px;
+  }
+  .contact-text {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  .login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form {
+    position: relative;
+    width: 100%;
+    max-width: 360px;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  }
+  .form .input-group {
+    position: relative;
+    text-transform: uppercase;
+  }
+  .form .input-group input,
+  textarea {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    color: inherit;
+  }
+  .form .input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: 0.3s ease-out;
+  }
+  .form .input-group .input:focus + label,
+  .form .input-group .input:valid + label {
+    transform: translateY(-18px);
+    /*color: #ff652f;*/
+    color: rgb(27, 190, 68);
+    font-size: 0.8rem;
+  }
+  .btn-submit input {
+    color: rgb(27, 190, 68); 
+    text-decoration: none;
+    border: 2px solid rgb(27, 190, 68);
+    padding: 7px 10px;
+    width: 115px;
+    margin-right: 10px;
+    border-radius: 0.6ex;
+    font-size: 15px;
+    font-family: Gotham, Helvetica, Arial, sans-serif;
+  }
+  .btn-submit input:hover {
+    color: rgb(235, 239, 243);
+    background-color: rgb(27, 190, 68);
+  }
+  .btn-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  #footer {
+    background: linear-gradient(45deg, #00ccdf 0, #4d0ce8 100%);
+    min-height: 25vh;
+    
+  }
+  .social-media{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+  }
+  .media{
+    color:  honeydew;
+    
+  }
+  .media:hover{
+    color:rgb(27, 190, 68);
+  }
+  .social-text{
+    margin-top: 40px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 17px;
+  }
+  .indivi-social{
+    margin: 0 15px;
+  }
+  
+  
+  
+  
+  @media (min-width: 992px) {
+    .my-image {
+      float: right;
+      margin-top: -40px;
+    }
+  }
+  @media(max-width: 765px) {
+    #about {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .heigh {
+      width: 100%;
+    }
+    .underline {
+      margin-bottom: 40px;
+    }
+    .my-image {
+      margin-bottom: 30px;
+    }
+    .text {
+      width: 100%;
+      text-align: left;
+    }
+    #skill {
+      padding-left: 15px;
+    }
+    .dev {
+      flex-direction: column;
+    }
+    .span {
+      max-width: 100%;
+      margin-left: 12px;
+      font-size: 18px;
+    }
+    .skill-dev {
+      margin-left: 10px;
+      font-size: 30px;
+    }
+    .tools {
+      margin-left: 12px;
+    }
+    .lang {
+      margin-right: 08px;
+    }
+    .project-name {
+      flex-direction: column;
+    }
+    .project-btn {
+      margin-top: 10px;
+    }
+    #project {
+      padding-left: 15px;
+    }
+    #certificate {
+      padding-left: 15px;
+    }
+    .certi-col {
+      margin-left: 0%;
+    }
+    .card {
+      width: 85%;
+      margin: 25px 0 25px 20px;
+    }
+    .form {
+      width: 83%;
+    }
+    .social-text{
+      font-size: 15px;
+    }
+    .indivi-social{
+      margin: 0 10px;
+    }
+  }
+  
