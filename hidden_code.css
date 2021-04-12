@@ -19,8 +19,8 @@
     background-attachment: fixed;
     text-align: center;
   }
-  .title {
-    padding-top: 20%;
+  .my-name {
+    padding-top: 270px;
   }
   .title h1 {
     font-size: 50px;
@@ -75,10 +75,10 @@
   }
   #skill h1 {
     font-family: "Rancho", cursive;
-    font-size: 60px;
+    font-size: 65px;
   }
   .skill-dev {
-    font-size: 40px;
+    font-size: 37px;
   }
   .dev {
     display: flex;
@@ -272,7 +272,7 @@
   }
   #certificate {
     min-height: 100vh;
-    background: rgba(0, 0, 0, 0.8) url("./img/certificates.jpg");
+    background: rgba(0, 0, 0, 0.5) url("./img/certificates.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -283,7 +283,7 @@
   }
   .content h1 {
     font-family: "Rancho", cursive;
-    font-size: 60px;
+    font-size: 65px;
   }
   .card {
     box-shadow: 0 4px 8px 0 rgba(103, 196, 57, 0.2);
@@ -351,7 +351,7 @@
   }
   #contacts h1 {
     font-family: "Rancho", cursive;
-    font-size: 60px;
+    font-size: 65px;
   }
   .contact-text {
     font-family: "Source Sans Pro", sans-serif;
@@ -465,6 +465,12 @@
     }
   }
   @media(max-width: 765px) {
+    .title h1{
+      font-size: 40px;
+    }
+    .title p{
+      font-size: 15px;
+    }
     #about {
       padding-left: 15px;
       padding-right: 15px;
@@ -530,6 +536,12 @@
     }
     .indivi-social{
       margin: 0 10px;
+    }
+    .more-projects h3{
+      font-size: 30px;
+    }
+    .resume h3{
+      font-size: 30px;
     }
   }
   

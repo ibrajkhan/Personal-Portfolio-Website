@@ -38,7 +38,7 @@
   <body oncontextmenu="return false">
     <header>
       <nav class="navbar py-3 navbar-dark navbar-expand-sm ">
-        <a href="#" class="navbar-brand  font-italic px-3" >Personal Portfolio</a>
+        <a href="#" class="navbar-brand  font-italic px-3" >My portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
         data-target="#navbarLinks">
         <span class="navbar-toggler-icon"></span>
@@ -52,10 +52,10 @@
                  <a href="#about" class="nav-link">About</a>
                </li>
                <li class="nav-item">
-                 <a href="#skill" class="nav-link">Skill</a>
+                 <a href="#skill" class="nav-link">Skills</a>
                </li>
                <li class="nav-item">
-                <a href="#project" class="nav-link">Project</a>
+                <a href="#project" class="nav-link">Projects</a>
               </li>
               <li class="nav-item">
                 <a href="#certificate" class="nav-link">Certificates</a>
@@ -70,7 +70,7 @@
     <main>
       <section id="welcome-section">
         <div class="title">
-          <h1>IBRAJ KHAN</h1>
+          <h1 class="my-name">IBRAJ KHAN</h1>
           <p>FULL STACK ENGINEER</p>
           <a href="#about"
             ><img src="./img/outline_festival_white_24dp.png" alt="tent-img"
@@ -423,7 +423,7 @@
             </div>
             </center>
            <div class="login-wrapper">
-              <form action="" class="form" autocomplete="off">
+              <form action="POST" data-netlify="true" class="form" autocomplete="off">
                 <div class="input-group">
                   <input type="text" name="Name" class="input" id="name" required>
                   <label for="Name">Name</label>
@@ -439,6 +439,9 @@
                <div class="input-group">
                   <textarea name="Message" id="message" class="input" required></textarea>
                  <label for="message" class="label-name"> <span class="content-name">Message</span> </label>
+               </div>
+               <div class="field">
+                <div data-netlify-recaptcha="true"></div>
                </div>
                <div class="btn-submit">
                 <input type="submit" value="Submit" class="btn" id="submit"> 
