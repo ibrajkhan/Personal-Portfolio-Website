@@ -380,6 +380,9 @@
   .captcha{
     padding-top: 15px;
   }
+  .recaptcha{
+    width: 200px !important;
+  }
   .form .input-group input,
   textarea {
     width: 100%;
