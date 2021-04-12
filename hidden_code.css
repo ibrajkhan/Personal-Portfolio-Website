@@ -379,6 +379,7 @@
   }
   .captcha{
     padding-top: 15px;
+    width: 200px!important;
   }
   .recaptcha{
     width: 200px !important;
