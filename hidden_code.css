@@ -377,6 +377,10 @@
     position: relative;
     text-transform: uppercase;
   }
+  .captcha{
+    width: 200px;
+    top: 10px;
+  }
   .form .input-group input,
   textarea {
     width: 100%;
