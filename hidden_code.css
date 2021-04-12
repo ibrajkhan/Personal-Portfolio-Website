@@ -378,8 +378,8 @@
     text-transform: uppercase;
   }
   .captcha{
-    width: 200px;
-    padding-top: 10px;
+    max-width: 200px;
+    padding-top: 15px;
   }
   .form .input-group input,
   textarea {
