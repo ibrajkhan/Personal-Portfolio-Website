@@ -423,7 +423,7 @@
             </div>
             </center>
            <div class="login-wrapper">
-              <form action="POST" data-netlify="true" class="form" autocomplete="off">
+              <form action="POST" data-netlify="true" netlify-honeypot="bot-field" class="form" autocomplete="off">
                 <div class="input-group">
                   <input type="text" name="Name" class="input" id="name" required>
                   <label for="Name">Name</label>
@@ -441,9 +441,7 @@
                  <label for="message" class="label-name"> <span class="content-name">Message</span> </label>
                </div>
                <div class="input-group captcha">
-                <div data-netlify-recaptcha="true" data-theme="light"
-                data-sitekey="XXXXXXXXXXXXX"
-                style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+                <div data-netlify-recaptcha="true"></div>
                </div>
                <div class="btn-submit">
                 <input type="submit" value="Submit" class="btn" id="submit"> 
