@@ -379,7 +379,7 @@
   }
   .captcha{
     width: 200px;
-    top: 10px;
+    padding-top: 10px;
   }
   .form .input-group input,
   textarea {
