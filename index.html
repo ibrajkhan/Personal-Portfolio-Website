@@ -31,6 +31,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Ibraj khan</title>
     <link
       rel="shortcut icon"
@@ -74,17 +76,17 @@
     <main>
       <section id="welcome-section">
         <div class="title">
-          <h1 class="my-name animate__animated animate__fadeInDown animate__delay-0.5s">IBRAJ KHAN</h1>
-          <p class="animate__animated animate__fadeInUp animate__delay-1s">FULL STACK ENGINEER</p>
+          <h1 class="my-name animate__animated animate__fadeInDown animate__delay-1s">IBRAJ KHAN</h1>
+          <p class="animate__animated animate__fadeInUp animate__delay-2s">FULL STACK ENGINEER</p>
           <a href="#about"
-            ><img src="./img/outline_festival_white_24dp.png" class="animate__animated animate__bounceIn animate__delay-2s" alt="tent-img"
+            ><img src="./img/outline_festival_white_24dp.png" class="animate__animated animate__bounceIn animate__delay-3s" alt="tent-img"
           /></a>
         </div>
       </section>
       <section id="about">
         <div class="container ">
           <div class="heigh">
-            <h1>Hey, I'm Ibraj khan</h1>
+            <h1 data-aos="fade-right" data-aos-delay="200" data-aos-once="true">Hey, I'm Ibraj khan</h1>
             <p class="aboutme">
               I'm a design-minded, detail oriented software engineer passionate
               about combining beautiful code with beautiful design.
@@ -120,7 +122,7 @@
         <div class="container py-5">
           <div class="row">
             <div class="col">
-              <h1>Skills</h1>
+              <h1 data-aos="fade-right" data-aos-delay="200" data-aos-once="true">Skills</h1>
               <div class="underline"></div>
             </div>
           </div>
@@ -202,7 +204,7 @@
         <div class="container ">
           <div class="row">
             <div class="col">
-              <h1>Some of My Projects</h1>
+              <h1 data-aos="fade-right" data-aos-delay="200" data-aos-once="true">Some of My Projects</h1>
               <div class="underline"></div>
             </div>
           </div>
@@ -331,7 +333,7 @@
           <div class="portfolio-row">
             <div class="underline line"></div>
             <div class="screenshot">
-              <img src="./Project-img/port-lg.png" alt="my-port" class="large-img">
+              <img src="./Project-img/portf-lg.png" alt="my-port" class="large-img">
               <img src="./Project-img/port-md.png" alt="my-port" class="med-img">
               <img src="./Project-img/port-sm.png" alt="my-port" class="small-img">
             </div>
@@ -357,7 +359,7 @@
       </section>
       <section class="more-projects">
         <div>
-          <h3>View More Projects</h3>
+          <h3 data-aos="zoom-in" data-aos-delay="200" data-aos-once="true">View More Projects</h3>
             <a href="https://github.com/ibrajkhan?tab=repositories" target="_blank" class="git"><i class="fab fa-github fa-2x"></i>
           </div>
           </a>
@@ -368,7 +370,7 @@
         <div class="container content">
           <div class="row">
             <div class="col">
-              <h1>Certificate</h1>
+              <h1 data-aos="fade-right" data-aos-delay="300" data-aos-once="true">Certificate</h1>
               <div class="underline"></div>
             </div>
           </div>
@@ -409,9 +411,9 @@
       </section>
 
       <section class="resume">
-        <div>
+        <div data-aos="zoom-in" data-aos-delay="200" data-aos-once="true">
           <h3>View My Resume</h3>
-            <a href="./docs/My Resume.pdf" target="_blank" class="git"><i class="fab fa-accusoft fa-2x"></i>
+            <a href="./docs/My Resume.pdf" target="_blank" class="git"><i class="fab fa-accusoft fa-2x "></i>
           </div>
           </a>
         </div>
@@ -421,7 +423,7 @@
           <div class="contents">
             <center>
               <div>
-                <h1>Get In Touch</h1>
+                <h1 data-aos="fade-right" data-aos-delay="300" data-aos-once="true">Get In Touch</h1>
                 <p class="contact-text">Feel free to send me a message!</p> 
                <div class="underline"></div>
             </div>
@@ -473,7 +475,7 @@
             <div class=" indivi-social">
               <a href="tel:+9665080749"  class="media" target="_blank"><i class="fas fa-mobile-alt fa-2x med"></i></a>
             </div>
-          </div class=" indivi-social">
+          </div>
           <div class="social-text">
             <p>Designed & Developed by &#169 Ibraj khan 2021</p>
           </div>
@@ -485,6 +487,10 @@
 
     <!-- Bootstrap js-->
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     </main>
   </body>
 </html>

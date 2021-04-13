@@ -420,6 +420,7 @@
   .btn-submit input:hover {
     color: rgb(235, 239, 243);
     background-color: rgb(27, 190, 68);
+    transform: scale(0.98);
   }
   .btn-submit {
     display: flex;
@@ -428,7 +429,7 @@
   }
   #footer {
     background: linear-gradient(45deg, #00ccdf 0, #4d0ce8 100%);
-    min-height: 25vh;
+    min-height: 30vh;
     
   }
   .social-media{
@@ -542,6 +543,9 @@
     }
     .resume h3{
       font-size: 30px;
+    }
+    #footer{
+      min-height: 25vh;
     }
   }
   
