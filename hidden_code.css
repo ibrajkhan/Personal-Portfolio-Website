@@ -19,8 +19,8 @@
     background-attachment: fixed;
     text-align: center;
   }
-  .my-name {
-    padding-top: 270px;
+  .my-name{
+    padding-top: 100px;
   }
   .title h1 {
     font-size: 50px;
@@ -31,6 +31,28 @@
     padding-top: 5px;
     font-size: 18px;
     color: rgb(220, 222, 231);
+  }
+  .in-touch a{
+    color: rgb(4, 131, 131);
+    text-decoration: none;
+    border: 2px solid rgb(4, 131, 131);
+    padding: 7px 10px;
+    width: 110px;
+    margin-right: 10px;
+    border-radius: 0.6ex;
+    font-size: 12px;
+    font-family: Gotham, Helvetica, Arial, sans-serif;
+  }
+  .in-touch a:hover{
+    color: rgb(235, 239, 243);
+    background-color: rgb(4, 131, 131);
+    transform: scale(0.98);
+  }
+  .in-touch{
+    padding-top: 5px;
+  }
+  .logo{
+    margin-top: 50px;
   }
   #about {
     background-color: rgb(20, 43, 43);
@@ -44,7 +66,7 @@
   }
   .underline {
     width: 140px;
-    height: 2.2px;
+    height: 2px;
     background-color: rgb(27, 190, 68);
     margin-bottom: 30px;
   }
@@ -244,7 +266,7 @@
   }
   .line {
     margin-top: 50px;
-    margin-bottom: 110px;
+    margin-bottom: 100px;
   }
   .portfolio-row {
     margin-left: 10px;
@@ -472,6 +494,9 @@
     .title p{
       font-size: 15px;
     }
+    .my-name{
+      padding-top: 120px;
+    }
     #about {
       padding-left: 15px;
       padding-right: 15px;
@@ -479,8 +504,9 @@
     .heigh {
       width: 100%;
     }
-    .underline {
-      margin-bottom: 40px;
+    .line {
+      margin-top: 50px;
+      margin-bottom: 70px;
     }
     .my-image {
       margin-bottom: 30px;
